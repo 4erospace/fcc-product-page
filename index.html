@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/product.css">
+        <title>Generic VPN</title>
+        <link rel="icon" href="images/logo.png" sizes="16x16" type="image/png">
+        <style>
+            @media only screen and (max-width: 640px) {
+                .navbar-stuff {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .nav-links {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                }
+                .logo-stuff {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+                .nav-link {
+                    color: rgb(235, 198, 3);
+                    border-radius: 4px 4px 4px 4px;
+                    padding: 5px;
+                }
+            }
+
+            @media only screen and (min-width: 640px) {
+                .navbar-stuff {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .nav-links {
+                    margin: 28px 40px;
+                    display: flex;
+                }
+                .logo-stuff {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .nav-link {
+                    margin: 10px;
+                    white-space: nowrap;
+                    color: rgb(235, 198, 3);
+                    border-radius: 4px 4px 4px 4px;
+                    padding: 5px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </div>
+        <div id="header-container">
+            <header id="header">
+                <div class="navbar-stuff">
+                    <div class="logo-stuff">
+                        <img id="header-img" src="https://i.postimg.cc/pTbpPwC4/logo.png" alt="">
+                        <h1>Generic VPN</h1>
+                    </div>
+                    <nav id="nav-bar">
+                        <div class="nav-links">
+                            <div>
+                                <a href="#features" class="nav-link">Features</a>
+                            </div>
+                            <div>
+                                <a href="#video_link_box" class="nav-link">What's a VPN?</a>
+                            </div>
+                            <div>
+                                <a href="#email-label" class="nav-link">Contact Us</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <main>
+        <div>
+            <p id="big-title"><strong>Generic VPN</strong> is an <u>industry leader</u> in VPN technology and management.</p><br>
+        </div>
+        <div id="features">
+        </div>
+        <div>
+            <div id="h2-1">
+                <h2>Powerful online protection</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="h2-2">
+            <h2 class="right-align">Huge global network compiled from the fastest VPN servers</h2>
+                <p class="right-align">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+             <div id="h2-3">
+                 <h2>Now available on any device</h2>
+                <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.</p>
+            </div>
+        </div>
+        <div id="video_link_box"></div>
+        <div id="video_box">
+            <iframe width="711" height="400" src="https://www.youtube.com/embed/_wQTRMBAvzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email" id="email-label">Contact us for questions, problems or pricing:</label> 
+            <input type="email" id="email" placeholder="Enter your email" name="email">
+            <input type="submit" id="submit" name="submit">
+        </form>
+        </main>
+    </body>
+    <footer>
+        <div>
+            <p id="cr-info">
+                © 2020 Generic VPN
+            </p>
+        </div>
+    </footer>
+</html>
